@@ -23,7 +23,7 @@ function clickHandler(){
         }
     }
     else{
-        output.value = "Please enter valid inputs!";
+        output.value = "Please enter both the fields";
     }
 
 }
