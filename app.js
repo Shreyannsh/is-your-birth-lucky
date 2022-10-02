@@ -19,11 +19,11 @@ function clickHandler(){
         if (sum % number.value == 0) {
             output.innerText= "YAY! Your birthday is lucky!! 😍";
         } else {
-            output.innerText = "Oops!! Your birthday is not lucky!! 😔";
+            output.innerText = "Oops!! Your birthday is not that lucky!! 😔";
         }
     }
     else{
-        output.value = "Please enter both the fields";
+        output.value = "Please enter valid values";
     }
 
 }
