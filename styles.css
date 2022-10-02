@@ -41,3 +41,15 @@ textarea{
     font-size:x-large;
     font-weight: 900;
 }
+#privacy{
+    border: 2px solid red;
+    background-color: rgb(230, 230, 121);
+    height: 2rem;
+    padding:0.1rem;
+  
+}
+
+#privacy #btn-privacy{
+    background-color: red;
+    cursor: pointer;
+}

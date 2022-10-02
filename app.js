@@ -1,6 +1,8 @@
 var date =document.querySelector("#date");
 var number = document.querySelector("#number");
 var btnCheck = document.querySelector("#btn-check");
+var privacy = document.querySelector("#privacy");
+var btnprivacy= document.querySelector("#btn-privacy");
 
 function clickHandler(){
     inputDate = date.value;
@@ -28,4 +30,8 @@ function clickHandler(){
 
 }
 
+btnprivacy.addEventListener("click", () => {
+    console.log("clicked")
+    privacy.style.display = "none";
+});
 btnCheck.addEventListener("click",findBithdateIsLucky);
