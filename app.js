@@ -3,6 +3,7 @@ var number = document.querySelector("#number");
 var btnCheck = document.querySelector("#btn-check");
 var privacy = document.querySelector("#privacy");
 var btnprivacy= document.querySelector("#btn-privacy");
+var output = document.querySelector("#output");
 
 function clickHandler(){
     inputDate = date.value;
@@ -15,7 +16,7 @@ function clickHandler(){
   }
   function findBithdateIsLucky() {
 
-    if (date.value && number.value>0) {
+    if (date.value && number.value > 0) {
         var sum = clickHandler(date.value);
 
         if (sum % number.value == 0) {
@@ -25,13 +26,12 @@ function clickHandler(){
         }
     }
     else{
-        output.value = "Please enter valid values";
+        output.innerText = "Please enter valid values";
     }
 
 }
 
 btnprivacy.addEventListener("click", () => {
-    console.log("clicked")
     privacy.style.display = "none";
 });
 btnCheck.addEventListener("click",findBithdateIsLucky);
