@@ -1,5 +1,5 @@
 body{
-    margin:auto;
+    margin:0 auto;
     max-width: 600px;
     text-align: center;
     background-image:url("images/birthday\ \(9\).jpg");
@@ -12,16 +12,16 @@ h1{
 
 }
 
-    label{
+label{
         padding:2rem;
         margin:1rem;
         font-size: x-large;
-    }
+}
 
 input{
     margin:0.5rem;
     width:30%;
-    height:1rem;
+    height:1.5rem;
     font-weight: 550;
 }
 
@@ -32,7 +32,6 @@ input{
     cursor:pointer;
     border-radius: 5px;
     font-weight: 700;
-
 }
 
 textarea{
@@ -41,12 +40,12 @@ textarea{
     font-size:x-large;
     font-weight: 900;
 }
+
 #privacy{
     border: 2px solid red;
     background-color: rgb(230, 230, 121);
     height: 2rem;
     padding:0.1rem;
-  
 }
 
 #privacy #btn-privacy{
